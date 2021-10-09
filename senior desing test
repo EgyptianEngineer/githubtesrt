@@ -1,0 +1,7 @@
+import math
+
+x = print('please input a wave peramter in the form of amplitude, omega(Radian Frequency), and Beta(phase propagation) \n')
+y = int(input('Amplitude:'))
+w = int(input('w Radian Frequency:'))
+a = int(input('Beta (phase propagation):'))
+b = print('your wave equation is' ,y,'cos(',w,'t -' , a,'* z)')
